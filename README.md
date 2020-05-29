@@ -1,6 +1,7 @@
 # WSL Setup
 
 * [cURL](https://curl.haxx.se/)
+* [Make](https://www.gnu.org/software/make/manual/make.html)
 * [Node.js v12 / npm](https://nodejs.org/)
 * [yarn](https://yarnpkg.com/)
 * [Vue CLI](https://cli.vuejs.org/)
@@ -21,20 +22,29 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 * [Install Ubuntu 18.04](https://www.microsoft.com/store/apps/9N9TNGVNDL3Q)
 
 
+**cURL**
+```bash
+sudo apt-get install curl
+```
+
+**Make**
+```bash
+sudo apt-get install make
+```
+
 **Node.js v12 / npm**
 ```bash
 sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get install curl
-curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
-sudo apt-get -y install nodejs
+sudo apt-get upgrade -y
+sudo curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+sudo apt-get install nodejs -y
 sudo chown -R $USER:$(id -gn $USER) /home/bvlad/.config
 ```
 
 **yarn**
 ```bash
 sudo apt-get update
-sudo apt-get install yarn
+sudo apt-get install yarn -y
 ```
 
 **Vue CLI**
