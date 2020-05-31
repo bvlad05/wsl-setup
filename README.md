@@ -3,6 +3,7 @@
 * [cURL](https://curl.haxx.se/)
 * [Make](https://www.gnu.org/software/make/manual/make.html)
 * [Node.js v12 / npm](https://nodejs.org/)
+    * [npm-check-updates](https://www.npmjs.com/package/npm-check-updates)
 * [yarn](https://yarnpkg.com/)
 * [Vue CLI](https://cli.vuejs.org/)
 * [Heroku CLI](https://heroku.com/)
@@ -10,7 +11,7 @@
 * [Asciinema](https://asciinema.org/)
 * [PHP7.3](https://www.php.net/)
 * [Composer](https://getcomposer.org/)
-* [WP CLI](https://wp-cli.org/)
+* [WP CLI](https://wp-cli.org/) 
 
 ## Install
 **Ubuntu 18.04**
@@ -38,6 +39,7 @@ sudo apt-get update
 sudo apt-get upgrade -y
 sudo curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt-get install nodejs -y
+sudo npm install -g npm-check-updates
 sudo chown -R $USER:$(id -gn $USER) /home/bvlad/.config
 ```
 
