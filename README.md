@@ -61,7 +61,7 @@ sudo curl https://cli-assets.heroku.com/install.sh | sh
 
 **Varcel CLI**
 ```bash
-sudo npm i -g now
+sudo npm i -g varcel
 ```
 
 **Asciinema**
