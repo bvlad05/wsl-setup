@@ -59,9 +59,9 @@ sudo npm i -g @vue/cli
 sudo curl https://cli-assets.heroku.com/install.sh | sh
 ```
 
-**Varcel CLI**
+**Vercel CLI**
 ```bash
-sudo npm i -g varcel
+sudo npm i -g vercel
 ```
 
 **Asciinema**
