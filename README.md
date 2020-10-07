@@ -2,7 +2,7 @@
 
 * [cURL](https://curl.haxx.se/)
 * [Make](https://www.gnu.org/software/make/manual/make.html)
-* [Node.js v12 / npm](https://nodejs.org/)
+* [Node.js v14 / npm](https://nodejs.org/)
     * [npm-check-updates](https://www.npmjs.com/package/npm-check-updates)
 * [yarn](https://yarnpkg.com/)
 * [Vue CLI](https://cli.vuejs.org/)
@@ -33,11 +33,11 @@ sudo apt-get install curl
 sudo apt-get install make
 ```
 
-**Node.js v12 / npm**
+**Node.js v14 / npm**
 ```bash
 sudo apt-get update
 sudo apt-get upgrade -y
-sudo curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+sudo curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 sudo apt-get install nodejs -y
 sudo npm install -g npm-check-updates
 sudo chown -R $USER:$(id -gn $USER) /home/bvlad/.config
